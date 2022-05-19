@@ -1,7 +1,6 @@
 
 import java.util.Scanner;
 
-
 public class HolaMundo {
 
     public static void main(String[] args) {
@@ -42,7 +41,6 @@ public class HolaMundo {
         System.out.println("Retroceso: \b\b" +nombre ); // Caracter de retroceso
         System.out.println("comillas simples: \'"+ nombre+"\'" );
         System.out.println("comillas dobles: \""+nombre+"\"" ); */
-        
         // Clase Scanner
         /*Scanner entrada =  new Scanner(System.in);
         System.out.println("Digite su nombre: ");
@@ -51,8 +49,7 @@ public class HolaMundo {
         System.out.println("Escriba el título: ");
         var titulo2 = entrada.nextLine();
         System.out.println("resultado: "+titulo2+" "+usuario2 );*/
-        
-        /*byte numEnteroByte = 127;
+ /*byte numEnteroByte = 127;
         System.out.println("numEnteroByte = " + numEnteroByte);
         System.out.println("valor minimo del byte: "+ Byte.MIN_VALUE);
         System.out.println("valor máximo del byte: " + Byte.MAX_VALUE);
@@ -71,8 +68,7 @@ public class HolaMundo {
         System.out.println("numEnteroLong = " + numEnteroLong);
         System.out.println("valor minimo de long: "+ Long.MIN_VALUE);
         System.out.println("valor máximo de long: "+ Long.MAX_VALUE); */
-        
-       /* float numFloat = 3.4028235E38F;
+ /* float numFloat = 3.4028235E38F;
         System.out.println("numFloat = " + numFloat);
         System.out.println("el valor minimo de float: " + Float.MIN_VALUE);
         System.out.println("el valor maximo de float: " + Float.MAX_VALUE);
@@ -81,17 +77,15 @@ public class HolaMundo {
         System.out.println("numDouble = " + numDouble);
         System.out.println("el valor minimo de double: " + Double.MIN_VALUE);
         System.out.println("el valor maximo de double: " + Double.MAX_VALUE);*/
-        
-       // Inferencia de tipos con var y tipos primitivos
-       /*var numEntero = 20 ; //Las literales sin punto automaticamente son de tipo int
+        // Inferencia de tipos con var y tipos primitivos
+        /*var numEntero = 20 ; //Las literales sin punto automaticamente son de tipo int
         System.out.println("numEntero = " + numEntero);
         var numFloat = 10.0F ; // Automaticamente con el punto decimal se transforma en tipo double
         System.out.println("numFloat = " + numFloat);
         var numDouble= 10.0 ;
         System.out.println("numDouble = " + numDouble); */
-       
-       //Tipos primitivos char
-       /*char miVariableChar = 'a';
+        //Tipos primitivos char
+        /*char miVariableChar = 'a';
         System.out.println("miVariableChar = " + miVariableChar);
         
         char varCaracter= '\u0024'; // Indicamos a java la asignacion con el codigo unicode
@@ -117,9 +111,8 @@ public class HolaMundo {
         
         int caracterChar = 'b';
         System.out.println("caracterChar = " + caracterChar);*/
-       
-       // Tipos primitivos tipos booleanos
-       var varBool = false;
+        // Tipos primitivos tipos booleanos
+        /* var varBool = false;
         System.out.println("varBool = " + varBool);
         
         if(varBool){
@@ -138,7 +131,31 @@ public class HolaMundo {
         }
         else { 
             System.out.println("Eres menor de edad");
-        }
-   
+        } */
+        // Conversion de tipos primitivos
+//        var edad = Integer.parseInt("20");
+//        System.out.println("edad = " + (edad+1));
+//        var valorPI = Double.parseDouble("3.1416");
+//        System.out.println("valorPI = " + valorPI);
+//        
+//        // Pedir valor
+          var entrada = new Scanner(System.in);
+//        System.out.println("Digite su edad: ");
+//        edad = Integer.parseInt(entrada.nextLine());
+//        System.out.println("edad = " + edad);
+        
+        // Conversion de tipos primitivos en Java Parte 2
+        var edadTexto = String.valueOf(10);
+        System.out.println("edadTexto = " + edadTexto);
+        
+        var fraseChar = "programadores".charAt(3) ;
+        System.out.println("fraseChar = " + fraseChar);
+        
+        System.out.println("Digite un caracter: ");
+        
+        fraseChar = entrada.nextLine().charAt(0);
+        System.out.println("fraseChar = " + fraseChar);
+        
+        
     }
 }
