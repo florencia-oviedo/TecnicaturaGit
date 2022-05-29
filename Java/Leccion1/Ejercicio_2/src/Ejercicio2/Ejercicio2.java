@@ -13,8 +13,9 @@ public class Ejercicio2 {
         int horasTrabajadas = Integer.parseInt(entrada.nextLine());
         Double salarioFinal = salarioPorHora * horasTrabajadas;
         System.out.println("El salario semanal total es = " + salarioFinal);*/
-        
-        int horasSemanales ;
+         
+        //Codigo resuelto por el profe
+        /*int horasSemanales ;
         float salarioHora, salarioTotal ;
         
         System.out.println("Digite las horas semanales trabajadas:");
@@ -23,6 +24,12 @@ public class Ejercicio2 {
         salarioHora = Float.parseFloat(entrada.nextLine());
         
         salarioTotal = horasSemanales * salarioHora;
-        System.out.println("\nEl salario semanal es: US$"+ salarioTotal);
+        System.out.println("\nEl salario semanal es: US$"+ salarioTotal);*/
+        
+        
+        
+        
+        
+        
     }
 }
