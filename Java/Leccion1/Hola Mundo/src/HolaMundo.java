@@ -221,16 +221,16 @@ public class HolaMundo {
         System.out.println("varG = " + varG);
         System.out.println("varH = " + varH);
         
-        //Operadores unarios de decremento
+        //Operadores unarios de decremento: pre decremento
         var varI=4;
         var varJ= --varI;
-        System.out.println("varI = " + varI);
+        System.out.println("varI = " + varI); //la variable ya esta con decremento
         System.out.println("varJ = " + varJ);
         
-        //Operadores unarios de poscremento
+        //Operadores unarios de posdecremento
         var varK=8;
-        var varL= varK--;
-        System.out.println("varK = " + varK);
+        var varL= varK--; //primero el valor de la variable, luego el posdecremento
+        System.out.println("varK = " + varK); //aqui va a decrementar en 1
         System.out.println("varL = " + varL); */
         // Operadores de igualdad y relacionales 
         /*var aNum = 5;
@@ -246,7 +246,7 @@ public class HolaMundo {
         var cVar = cadenaA == cadenaB;
         System.out.println("cVar = " + cVar);
 
-        var fVar = cadenaA.equals(cadenaB);
+        var fVar = cadenaA.equals(cadenaB); //se usa esto para comparar 2 cadenas
         System.out.println("fVar = " + fVar);
 
         var gVar = aNum != bNum; // > >= < <= != ==
@@ -282,15 +282,15 @@ public class HolaMundo {
         else
             System.out.println("Papa no puede asistir al juego de su hijo"); */
         
-        // FALTA TEORIA
+        // Operador Ternario
+        /*var resultadoT= (5 > 8) ? "Verdadero":"Falso";
+        System.out.println("resultadoT = " + resultadoT);
         
+        var numeroT= 7;
+        resultadoT= (numeroT % 2 == 0)? "el numero es par": "el numero es impar";
+        System.out.println("resultadoT = " + resultadoT);*/
         
-        
-        
-        
-        
-        
-        var x = 5 ;
+        /*var x = 5 ;
         var y = 10 ;
         var z = ++x + y--;
         System.out.println("x = " + x); // 6
@@ -301,7 +301,7 @@ public class HolaMundo {
         System.out.println("solucionAritmetica = " + solucionAritmetica);
     
         solucionAritmetica = (4+5)*6/3 ; // 4+5=9*6 = 54 /3 = 18
-        System.out.println("solucionAritmetica = " + solucionAritmetica);
+        System.out.println("solucionAritmetica = " + solucionAritmetica);*/
         
 
     }
