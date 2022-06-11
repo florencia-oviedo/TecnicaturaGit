@@ -19,8 +19,9 @@ elif num == 3:
     numTexto = "numero tres"
 else:
     numTexto= "Haz ingresado un numero fuera de rango"
-#Siempre respetar la identacion(espacios) OJO en el siguiente codigo print sin espacio
 print( f"El numero ingresado es: {num} - {numTexto}")
+
+#Siempre respetar la identacion(espacios) OJO en el siguiente codigo print sin espacio 
 """
 #condicion = True
 #if condicion:
