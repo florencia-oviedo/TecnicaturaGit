@@ -10,13 +10,3 @@ while anio % 4 ==0 and num % 100 == 0 or num%400==0:
     else:
         print("El año no es bisiesto")
     anio = int(input("Ingrese un año: "))
-
-
-
-
-
-
-
-
-
-
