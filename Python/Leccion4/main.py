@@ -222,3 +222,120 @@ print(tupla)
 print(4 in tupla) #Accion booleana su respuesta es booleana
 #Lo que podemos usar en tuplas: index,count,len
 #En tuplas se puede convertir de tupla a lista y de lista a tupla
+
+conjunto1 = set()
+conjunto2 = {'bye',}
+conjunto1.add(7)
+conjunto1.add('Hola')
+print(conjunto1)
+conjunto2.add('hola')
+print(conjunto2)
+print(3 not in  conjunto2) #Preguntamos si el numero 3 NO esta en el conjunto1
+
+#Como hacer la igualdad entre 2 conjuntos
+print(conjunto1 == conjunto2) #Devuelve booleano
+
+#Operaciones con conjuntos
+conjunto3 = conjunto1 | conjunto2 #Une a los dos conjuntos
+print(conjunto3)
+
+conjunto3 = conjunto1 & conjunto2 #que elemento tienen en comun
+print(conjunto3)
+
+conjunto3 = conjunto1 - conjunto2 #Asigna el valor que esta en el conjunto 1 y no en el conjunto 2
+print(conjunto3)
+
+conjunto3 = conjunto2 - conjunto1
+print(conjunto3)
+
+conjunto3 = conjunto1 ^ conjunto2 #elementos que no comparten o que son diferentes entre ambos
+print(conjunto3)
+
+conjunto3 = conjunto1 | conjunto2
+print(conjunto1.issubset(conjunto3)) #Aqui preguntamos si un conjunto es un subconjunto dentro de otro
+print(conjunto2.issubset(conjunto3))
+print(conjunto3.issubset(conjunto1))
+print(conjunto3.issubset(conjunto2))
+
+print(conjunto3.issuperset(conjunto1)) #Preguntamos si los elementos del conjunto 1 estan dentro del 3
+print(conjunto3.issuperset(conjunto2)) #Si es verdadero quiere decir que el conjunto 3 es un superconjunto
+print(conjunto2.issuperset(conjunto3))
+
+#Como saber si ambos conjuntos son disconexos,esto es si no comparten elementos en comun
+print(conjunto1.isdisjoint(conjunto2)) #No hay cosas en comun
+
+#Convertir un conjunto totalmente en inmutable
+conjunto1 = frozenset #Esto hace q el conjunto sea totalmente inmutable
+#No se puede agregar, modificar ni eliminar elementos del conjunto
+
+#Repaso diccionario
+diccionarioNuevo = { 'Azul': 'Blue', 'Rojo':'Red', 'Verde':'Green','Amarillo':'Yellow'}
+print(diccionarioNuevo)
+
+#Como eliminar
+del (diccionarioNuevo['Azul'])
+print(diccionarioNuevo)
+
+#Los diccionarios pueden almacenar diferentes tipo de datos
+diccionario2 = {'Ariel':{'Edad': 40, 'Altura':1.83},'Osvaldo': [45,1.85],'Natalia':[35,1.67]}
+print(diccionario2)
+
+seleccionArgentina = {
+    10: {'Nombre': 'Lionel Messi', 'Edad': 35, 'Altura': 1.70, 'Precio': '50 millones', 'Posición': 'Extremo derecho'},
+    11: {'Nombre': 'Angel Di Maria','Edad': 34, 'Altura': 1.80, 'Precio': '12 millones', 'Posición': 'Extremo derecho' },
+    24: {'Nombre': 'Paulo Dybala','Edad': 28, 'Altura': 1.77, 'Precio': '35 millones', 'Posición': 'Media Punta' },
+    19: {'Nombre': 'Nicolas Otamendi','Edad': 34, 'Altura': 1.83, 'Precio': '3.5 millones', 'Posición': 'Defensa Central'},
+    1: {'Nombre': 'Franco Armani','Edad': 35, 'Altura': 1.89, 'Precio': '3.5 millones', 'Posición': 'Portero'},
+    7: {'Nombre': 'Rodrigo De Paul','Edad': 28, 'Altura': 1.80, 'Precio': '40 millones', 'Posición': 'Mediocampista'},
+    8: {'Nombre': 'Marcos Acuña','Edad': 30, 'Altura': 1.72, 'Precio': '18 millones', 'Posición': 'Lateral Izquierdo'},
+    17: {'Nombre': 'Alejandro Gomez','Edad': 34, 'Altura': 1.67, 'Precio': '6 millones', 'Posición': 'Medio Centro Ofensivo'},
+    5: {'Nombre': 'Leandro Paredes','Edad': 28, 'Altura': 1.80, 'Precio': '17 millones', 'Posición': 'Mediocampista'},
+    3: {'Nombre': 'Nicolas Tagliafico','Edad': 30, 'Altura': 1.72, 'Precio': '11 millones', 'Posición': 'Lateral Izquierdo'},
+}
+for llave,valor in seleccionArgentina.items():
+    print(llave,valor)
+#Como tarea agregar por lo menos 4 jugadores más al diccionario seleccion argentina
+
+print("Tenemos cargados en el diccionario la cantidad de jugadores: ", end="")
+print(len(seleccionArgentina))
+
+#Pilas usando listas
+pila = [1,2,3]
+
+#Agregar elementos a la pila final
+pila.append(4)
+pila.append(5)
+print(pila)
+
+#Sacamos elementos desde el final
+elementoBorrado = pila.pop() #elimina el ultimo elemento de la lista y lo guarda en una variable
+print(f'El elemento borrado es {elementoBorrado}')
+print(f'La pila quedo asi:{pila}')
+
+#Colas con listas
+#Estructura de datos de tipo fifo(first input/ first ouput)
+cola = ['Ariel', 'Osvaldo', 'Liliana','Pilar']
+cola.append('Natalia')
+cola.append('José')
+print(cola)
+
+#Sacamos  elementos de la cola
+seRetira = cola.pop(0)
+print(f'Atendido el cliente {seRetira}')
+print(cola)
+
+seRetira=cola.pop(0)
+print(f'Atendido el cliente {seRetira}')
+print(cola)
+
+seRetira=cola.pop(0)
+print(f'Atendido el cliente {seRetira}')
+print(cola)
+
+seRetira=cola.pop(0)
+print(f'Atendido el cliente {seRetira}')
+print(cola)
+
+seRetira=cola.pop(0)
+print(f'Atendido el cliente {seRetira}')
+print(cola)
