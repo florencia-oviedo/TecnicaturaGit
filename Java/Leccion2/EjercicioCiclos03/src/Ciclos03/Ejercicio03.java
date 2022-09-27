@@ -8,9 +8,8 @@ package Ciclos03;
 
 import javax.swing.JOptionPane;
 
-
 public class Ejercicio03 {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         int numero;
         numero = Integer.parseInt(JOptionPane.showInputDialog("Digite un número: "));
         while(numero != 0){
