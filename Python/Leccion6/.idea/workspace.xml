@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="3a587214-089d-4919-8ceb-a6c014513ab3" name="Changes" comment="" />
+=======
+    <list default="true" id="535ec3c3-57b9-45bd-b444-a4299a635d2a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Persona.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion5/EjercicioFunciones03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion5/EjercicioFunciones03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion5/EjercicioFunciones05.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion5/EjercicioFunciones05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion5/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion5/main.py" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +29,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectId" id="2FlfmIju1Q8c2TxBHsitAniZvKi" />
+=======
+  <component name="ProjectId" id="2FgnFPazp5YWhio2Xl1tFMSWRXi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> Stashed changes
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+<<<<<<< Updated upstream
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager" selected="Python.PruebaPersona2">
@@ -52,6 +67,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+=======
+  </component>
+  <component name="RunManager">
+>>>>>>> Stashed changes
     <configuration name="Persona" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leccion6" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,6 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="Persona2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leccion6" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,17 +163,30 @@
         <item itemvalue="Python.Cubo" />
         <item itemvalue="Python.Persona" />
         <item itemvalue="Python.Rectangulo" />
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Persona" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< Updated upstream
       <changelist id="3a587214-089d-4919-8ceb-a6c014513ab3" name="Changes" comment="" />
       <created>1665071757351</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665071757351</updated>
+=======
+      <changelist id="535ec3c3-57b9-45bd-b444-a4299a635d2a" name="Changes" comment="" />
+      <created>1664922490546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664922490546</updated>
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
