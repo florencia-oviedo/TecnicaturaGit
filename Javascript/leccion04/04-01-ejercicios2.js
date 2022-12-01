@@ -115,3 +115,99 @@ const fechaNacimiento = 2006;
 console.log(fechaNacimiento);
 //fechaNacimiento = 2003;
 //console.log(fechaNacimiento); //Solo se ejecuta el console anterior
+
+//Evitar repetir nuestro codigo
+// Dry don't repeat yourself
+let days = 1;
+switch(days){
+    case 1:
+        console.log('Hoy es Lunes');
+        break;
+    case 2:
+        console.log('Hoy es Martes');
+        break;
+    case 3:
+        console.log('Hoy es Miercoles');
+        break;
+    case 4:
+        console.log('Hoy es Jueves');
+        break;
+    case 5:
+        console.log('Hoy es Viernes');
+        break;
+    case 6:
+        console.log('Hoy es Sábado');
+        break;
+    case 7:
+        console.log('Hoy es Domingo');
+        break;
+    default:
+        console.log('Error en el ingreso del dia de la semana');
+        break;
+}
+
+//Esta es la version mejorada
+let days2 =['Lunes','Martes','Miércoles','Jueves','Viernes','Sábado', 'Domingo'];
+function getDay(n){
+    if(n < 1 || n > 7){
+        throw new Error('out of range');
+    }
+    return days2[n-1];
+}
+console.log(getDay(3));
+
+//Hacer un ejercicio similar al que esta hecho, pero ahora con los
+//meses del año, debes hacerlo con la estructura switch y luego con
+//la funcion la opcion mejorada
+let month= 1;
+switch(month){
+    case 1:
+        console.log('Enero');
+        break;
+    case 2:
+        console.log('Febrero');
+        break;
+    case 3:
+        console.log('Marzo');
+        break;
+    case 4:
+        console.log('Abril');
+        break;
+    case 5:
+        console.log('Mayo');
+        break;
+    case 6:
+        console.log('Junio');
+        break;
+    case 7:
+        console.log('Julio');
+        break;
+    case 8:
+        console.log('Agosto');
+        break;
+    case 9:
+        console.log('Septiembre');
+        break;
+    case 10:
+        console.log('Octubre');
+        break;
+    case 11:
+        console.log('Noviembre');
+        break;
+    case 12:
+        console.log('Diciembre');
+        break;
+    default:
+        console.log('Error en el ingreso del mes del año');
+        break;
+}
+
+//Esta es la version mejorada
+let month2 =['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+function getMonth(n){
+    if(n < 1 || n > 12){
+        throw new Error('out of range');
+    }
+    return month2[n-1];
+}
+console.log(getMonth(1));
